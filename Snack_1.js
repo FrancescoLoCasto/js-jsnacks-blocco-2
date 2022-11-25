@@ -8,7 +8,7 @@
    for(let i = 0; i < 6; i++) {
       const numberUser = prompt("Inserisci il tuo numero")
 
-      if (numberUser % 3 == 1){
+      if (numberUser % 2 == 1){
          arrayNumber.push(numberUser)
      }
    }
