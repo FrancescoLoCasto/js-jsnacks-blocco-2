@@ -6,7 +6,9 @@
 
 
    for (let i = 0; i < 10; i++) {
+
       allNumbers += arrayNumber[i];
+
    }
-   
-console.log(allNumbers);
+
+   console.log(allNumbers);
