@@ -4,12 +4,18 @@
 
    let allNumbers = 0
 
+   let value = 0
+
 
    for (let i = 0; i < 10; i++) {
-      allNumbers = allNumbers += arrayNumber[i];
-      mid = allNumbers / 10
+      allNumbers += arrayNumber[i];
+      
+   } if(value < arrayNumber[i]){
+         value = arrayNumber[i]
    }
    
+   mid = allNumbers / 10  
 
    console.log(allNumbers);
    console.log(mid);
+   console.log(value);
