@@ -10,9 +10,13 @@
    for (let i = 0; i < 10; i++) {
       allNumbers += arrayNumber[i];
       
-   } if(value < arrayNumber[i]){
+      if(value < arrayNumber[i]){
+
          value = arrayNumber[i]
-   }
+      }
+   } 
+
+   
    
    mid = allNumbers / 10  
 
