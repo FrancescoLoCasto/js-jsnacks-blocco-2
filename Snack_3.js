@@ -7,7 +7,7 @@
 
    for (let i = 0; i < 10; i++) {
 
-      allNumbers += arrayNumber[i];
+      allNumbers = allNumbers += arrayNumber[i];
 
    }
 
