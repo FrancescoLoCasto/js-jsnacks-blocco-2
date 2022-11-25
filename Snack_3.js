@@ -6,9 +6,10 @@
 
 
    for (let i = 0; i < 10; i++) {
-
       allNumbers = allNumbers += arrayNumber[i];
-
    }
 
+   mid = allNumbers / 10
+
    console.log(allNumbers);
+   console.log(mid);
