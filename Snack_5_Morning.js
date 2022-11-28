@@ -8,11 +8,4 @@
  const names = ['Michela', 'Giuseppina', 'Taylor','Donna', 'Marsha', 'Fabio', 'Roberto'];
  const lastnames = ['Cappelletti', 'Jager', 'Porcinelli' , 'Buffetti' , 'Forghieri', 'Papagni', 'Marazzini'];
 
- let falseNames = [];
-
- for (let i = 0 ; i < 10; i++){
- 
-   falseNames = names + lastnames [Math.floor(Math.random() * 10)];
- 
-   console.log(falseNames);
- }
+   
