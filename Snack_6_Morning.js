@@ -5,7 +5,7 @@ const lotOfNumbers = [12, 67, 3,78, 178, 6, 48, 77, 66, 45, 11, 23, 13, 14, 15, 
 let tot = 0;
 
 for (let i = 0; i < lotOfNumbers.length; i++){
-    if( lotOfNumbers.indexOf(i) % 2 === 1){
+    if( i % 2 === 1){
         tot += i;
     }
 }
